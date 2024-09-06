@@ -22,7 +22,7 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "wasixml@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "+242068483430@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
@@ -31,8 +31,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOh
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "923192173398";
-global.owner = process.env.OWNER_NUMBER || "923192173398";
+global.sudo = process.env.SUDO || "+242068483430";
+global.owner = process.env.OWNER_NUMBER || "+242068483430";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -56,7 +56,7 @@ global.scan = "https://pair-qr-wasi-md.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "levanter_640214ced49a14e2eafc3d9c1dd466ba8"
 module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".",
